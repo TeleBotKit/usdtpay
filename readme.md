@@ -92,7 +92,7 @@ POST
  HTTP 200
 
 # 回调事件定义如下: 
-```json
+```jsonc
     {
     // 事件类型 
     // TransferContract = 本链交易(大多为TRX转账)
