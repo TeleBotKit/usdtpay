@@ -36,7 +36,7 @@ POST
 ## 请求参数
 
 ### JSON 请求包
-```json
+```jsonc
 {
   "address_base58": "TAVDdkxfqVRtYhwqnkwFKFJRf3gM5PrG1T", // 要监控的地址
   "send_type": 1, // 固定1
@@ -82,7 +82,7 @@ POST
 ## 请求参数
 
 ### JSON 请求包
-```json
+```jsonc
 {
   "address_base58": "TAVDdkxfqVRtYhwqnkwFKFJRf3gM5PrG1T" // 要移除的地址
 }
