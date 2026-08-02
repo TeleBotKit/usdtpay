@@ -77,7 +77,7 @@ const crypto = require("node:crypto");
 const API_ID = "<您的 apiId>";
 const API_KEY = "<您的 apiKey>";
 const API_SECRET_TOKEN = "<您的 apiSecretToken>";
-const BASE_URL = "https://tron-node-listener.telebotkit.cc";
+const BASE_URL = "<开通服务后由我们提供的接口地址>";
 
 // 1. 构造请求体
 const body = JSON.stringify({
@@ -108,9 +108,8 @@ console.log(await res.json());
 
 ### Base URL
 
-```text
-https://tron-node-listener.telebotkit.cc
-```
+**开通服务后由我们告知**。为保障服务安全，接口地址不在公开文档中展示；您完成开通后，我们会随
+`apiId` / `apiKey` / `apiSecretToken` 一起提供正式的调用地址，本文档中所有接口均基于该地址。
 
 ### 请求头
 
